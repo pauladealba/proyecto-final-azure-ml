@@ -74,13 +74,6 @@ La respuesta obtenida fue:
 
 Esto demuestra que el endpoint respondió correctamente desde la nube.
 
-## Cómo correr el proyecto
-
-Primero se instalan las librerías necesarias:
-
-```bash
-pip install -r requirements.txt
-
 ¿Para qué sirve if __name__ == "__main__"?
 
 La línea sirve para indicar que el código dentro de ese bloque solo se ejecuta cuando el archivo se corre directamente. Esto es útil porque permite importar clases o funciones desde otros archivos sin que se ejecute todo el programa automáticamente. En este proyecto se usa en main.py para controlar el flujo principal del programa.
